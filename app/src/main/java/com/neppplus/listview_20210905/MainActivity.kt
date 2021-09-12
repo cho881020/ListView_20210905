@@ -17,6 +17,11 @@ class MainActivity : AppCompatActivity() {
 //    변수만 만들고, 대입은 나중에 -> lateinit var
     lateinit var mAdapter : StudentAdapter
 
+
+    override fun onBackPressed() {
+//        super.onBackPressed()
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
